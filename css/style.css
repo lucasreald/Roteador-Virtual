@@ -1,0 +1,95 @@
+.light {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: rgb(196, 193, 193);
+  margin: 1rem;
+}
+
+.on {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: rgb(146, 225, 26);
+  margin: 1rem;
+  box-shadow: 0 0 15px green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainContent {
+  background-color: rgb(53, 53, 53);
+  width: 250px;
+  height: 690px;
+  border-radius: 30px;
+  display: block;
+  -webkit-box-shadow: 9px 7px 10px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow: 9px 7px 10px rgba(50, 50, 50, 0.77);
+  box-shadow: 9px 7px 10px rgba(103, 100, 100, 0.77);
+}
+
+#logo {
+  height: 20vh;
+  padding: 2rem;
+}
+
+#logo i {
+  font-size: 40px;
+  color: rgb(146, 225, 26);
+}
+#logo p {
+  font-size: 35px;
+  color: rgb(143, 140, 140);
+  text-align: center;
+  padding-top: 3rem;
+}
+
+#lights {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding-top: 0.6rem;
+}
+
+#lights p {
+  color: rgb(143, 140, 140);
+}
+
+#button button {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: rgb(118, 113, 113);
+  border: 1.3px solid rgb(122, 190, 20);
+  cursor: pointer;
+  margin-top: 2rem;
+  /* margin-bottom: 2rem; */
+}
+
+#button button:active {
+  background-color: rgb(101, 97, 97);
+}
+
+#button i {
+  font-size: 23px;
+  color: rgb(146, 225, 26);
+}
