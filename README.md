@@ -1,5 +1,5 @@
 # Roteador Virtual
-Projeto pessoal para estudo de Javascript..
+Projeto pessoal para estudo de Javascript.
 
 ## Tecnologias utilizadas
 - HTML
